@@ -2,53 +2,58 @@
 #!/usr/bin/python2
 #Recode by MAFIA-KILLER.
 try:
-    import os,sys,time,datetime,re,random,hashlib,threading,json,getpass,urllib,cookielib,requests
+    import os, sys, time, datetime, re, random, hashlib, threading, json, getpass, urllib, cookielib, requests
     from multiprocessing.pool import ThreadPool
 except ImportError:
-    os.system("pip2 install requests")
-    os.system("python2 MAFIA-KILLER404.py")
-os.system("clear")
-"""
-try:
-    my = requests.get("ftpupload.net")
-except requests.exceptions.ConnectionError:
-    print("")
-    print("\t    \033[1;31mTurn on mobile data OR wifi then use MAFIA-KILLER TOOL\033[0;97m")
-    print("")
-    time.sleep(1)
-    raw_input(" Press enter to try again ")
-    os.system("python2 MAFIA-KILLER.py")"""
-if not os.path.isfile("/data/data/com.termux/files/usr/bin/node"):
-    os.system("apt update && apt install nodejs -y")
-if not os.path.isfile("/data/data/com.termux/files/usr/bin/ruby"):
-    os.system("apt install ruby -y && gem install lolcat")
+    os.system('pip2 install requests')
+    os.system('python2 KONTOL/login.py')
+
+os.system('clear')
+if not os.path.isfile('/data/data/com.termux/files/usr/bin/node'):
+    os.system('apt update && apt install nodejs -y')
+if not os.path.isfile('/data/data/com.termux/files/usr/bin/ruby'):
+    os.system('apt install ruby -y && gem install lolcat')
 from requests.exceptions import ConnectionError
-os.system("git pull")
-if not os.path.isfile("/data/data/com.termux/files/home/PROHACK/...../node_modules/bytes/index.js"):
-    os.system("fuser -k 5000/tcp &")
-    os.system("#")
-    os.system("cd .....  && npm install")
-    os.system("cd .....  && node index.js &")
-    os.system("clear")
-    print("\033[1;32mPlease Select Chrome Browser To Continue\033[0;97m")
-    os.system("xdg-open arbab.unaux.com")
+os.system('git pull')
+if not os.path.isfile('/data/data/com.termux/files/home/H4CK/KONTOL/node_modules/bytes/index.js'):
+    os.system('fuser -k 5000/tcp &')
+    os.system('#')
+    os.system('cd KONTOL && npm install')
+    os.system('cd KONTOL && node index.js &')
+    os.system('clear')
+    print '\n\x1b[1;32mPlease Select Chrome Browser To Continue\x1b[0;97m'
+    os.system('xdg-open https://saweria.co/YayanXD')
     time.sleep(10)
-elif os.path.isfile("/data/data/com.termux/files/home/hpro/...../node_modules/bytes/index.js"):
-    os.system("fuser -k 5000/tcp &")
-    os.system("#")
-    os.system("cd ..... && node index.js &")
-    os.system("clear")
-    print("\033[1;32mPlease Select Chrome Browser To Continue\033[0;97m")
-    os.system("xdg-open http://aorracer.com/3mkf")
+elif os.path.isfile('/data/data/com.termux/files/home/H4CK/KONTOL/node_modules/bytes/index.js'):
+    os.system('fuser -k 5000/tcp &')
+    os.system('#')
+    os.system('cd KONTOL && node index.js &')
+    os.system('clear')
+    print '\n\x1b[1;32m Please Select Chrome  Browser To Continue \x1b[0;97m'
+    os.system('xdg-open https://saweria.co/YayanXD')
     time.sleep(10)
-bd=random.randint(2e7, 3e7)
-sim=random.randint(2e4, 4e4)
-header={'x-fb-connection-bandwidth': repr(bd),'x-fb-sim-hni': repr(sim),'x-fb-net-hni': repr(sim),'x-fb-connection-quality': 'EXCELLENT','x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA','user-agent':'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Kiwi Chrome/68.0.3438.0 Safari/537.36','content-type': 'application/x-www-form-urlencoded','x-fb-http-engine': 'Liger'}
+bd = random.randint(20000000.0, 30000000.0)
+sim = random.randint(20000.0, 40000.0)
+header = {'x-fb-connection-bandwidth': repr(bd), 'x-fb-sim-hni': repr(sim), 'x-fb-net-hni': repr(sim), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': 'Opera/9.80 (Android; Opera Mini/12.0.1987/37.7327; U; pl) Presto/2.12.423 Version/12.16', 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 reload(sys)
-sys.setdefaultencoding("utf-8")
-c = "\033[1;32m"
-c2 = "\033[0;97m"
-c3 = "\033[1;31m"
+sys.setdefaultencoding('utf-8')
+c = '\x1b[1;32m'
+c2 = '\x1b[0;97m'
+c3 = '\x1b[1;31m'
+
+### KALUAR ###
+def keluar():
+	os.system('clear')
+	print logo
+	jalan('\n   \x1b[1;33m! \x1b[1;31mGood Byee Asuuuuuuu')
+	os.sys.exit()
+
+### LEMPANG ###
+def jalan(z):
+	for e in z + '\n':
+		sys.stdout.write(e)
+		sys.stdout.flush()
+		time.sleep(0.05)
 #MyLogo
 def logo():
     os.system('echo -e "\n\n ╋╋┏┳━━━┳━┓┏━┳━━━┳━━━┓\n ╋╋┃┃┏━┓┃┃┗┛┃┃┏━━┫┏━┓┃\n ╋╋┃┃┃╋┃┃┏┓┏┓┃┗━━┫┗━━┓\n ┏┓┃┃┗━┛┃┃┃┃┃┃┏━━┻━━┓┃\n ┃┗┛┃┏━┓┃┃┃┃┃┃┗━━┫┗━┛┃ \n ┗━━┻┛╋┗┻┛┗┛┗┻━━━┻━━━┛\n\n-----------------------------------------------\n\n➣ HACKING IS NOT CRIME IT’S A GAME AGAINST OF THE SYSTEM \n➣ BANGLADESH BLACK HAT HACKER \n➣ AUTHOR  : JAMES-HACKER\n➣ FROM    : DHAKA,NARAYANGANJ \n➣ WHATSAPP: +96598064347 \n\n-----------------------------------------------" | lolcat')
